@@ -62,6 +62,7 @@ La aplicación se ejecutará en http://127.0.0.1:5001 por defecto. Puedes cambia
 
 Se debe ver así:
 
+```arduino
 tu_repositorio/
 │
 ├── app.py
@@ -75,6 +76,7 @@ tu_repositorio/
 │
 └── templates/
     └── index.html
+```
 
 ## Problemas Comúnes
   -jinja2.exceptions.TemplateNotFound: index.html:
