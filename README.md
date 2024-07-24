@@ -35,18 +35,32 @@ Primero, necesitas generar los archivos `joblib` desde Google Colab para que la 
 2. **Descargar los Archivos**:
   - Descarga los archivos generados (mejor_modelo.joblib, scaler.joblib, label_encoders.joblib, column_order.joblib) a tu máquina local.
     
-## Instalación y Ejecución
+## Instalación y Ejecución - Windows
   - Clonar el Repositorio:
 ```
 git clone https://github.com/andresalmeida/Despliegue_Modelo.git
 cd Despliegue_Modelo
 ```
+   - Creamos un entorno virtual
+```
+python -m venv venv
+```
+   - Activamos el entorno virtual
+```
+venv\Scripts\activate
+```
+   - Instalamos los requerimientos
+```
+pip install -r requirements.txt
+```
+
   - Asegúrate de que requirements.txt contiene:
 ```
 Flask
 pandas
 numpy
 joblib
+scikit-learn
 ```
   - Ejecuta la aplicación Flask
 ```
