@@ -38,8 +38,8 @@ Primero, necesitas generar los archivos `joblib` desde Google Colab para que la 
 ## Instalación y Ejecución
   - Clonar el Repositorio:
 ```
-git clone https://github.com/andresalmeida/Despliegue_Modelo_Conjunta.git
-cd Desplieg
+git clone https://github.com/andresalmeida/Despliegue_Modelo.git
+cd Despliegue_Modelo
 ```
   - Asegúrate de que requirements.txt contiene:
 ```
